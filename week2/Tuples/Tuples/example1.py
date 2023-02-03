@@ -1,0 +1,1 @@
+mytuple = ("apple", "banana", "cherry")
