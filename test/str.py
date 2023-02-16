@@ -1,0 +1,2 @@
+s = "Yerassyl"
+print(s)
