@@ -1,0 +1,19 @@
+A special sequence is a \ followed by one of the characters in the list below, and has a special meaning:
+
+Character	Description	Example	Try it
+\A	Returns a match if the specified characters are at the beginning of the string	"\AThe"	Try it »
+\b	Returns a match where the specified characters are at the beginning or at the end of a word
+(the "r" in the beginning is making sure that the string is being treated as a "raw string")	r"\bain"
+r"ain\b"	Try it »
+Try it »
+\B	Returns a match where the specified characters are present, but NOT at the beginning (or at the end) of a word
+(the "r" in the beginning is making sure that the string is being treated as a "raw string")	r"\Bain"
+r"ain\B"	Try it »
+Try it »
+\d	Returns a match where the string contains digits (numbers from 0-9)	"\d"	Try it »
+\D	Returns a match where the string DOES NOT contain digits	"\D"	Try it »
+\s	Returns a match where the string contains a white space character	"\s"	Try it »
+\S	Returns a match where the string DOES NOT contain a white space character	"\S"	Try it »
+\w	Returns a match where the string contains any word characters (characters from a to Z, digits from 0-9, and the underscore _ character)	"\w"	Try it »
+\W	Returns a match where the string DOES NOT contain any word characters	"\W"	Try it »
+\Z	Returns a match if the specified characters are at the end of the string	"Spain\Z"	Try it »

@@ -1,0 +1,11 @@
+Character	Description	Example	Try it
+[]	A set of characters	"[a-m]"	Try it »
+\	Signals a special sequence (can also be used to escape special characters)	"\d"	Try it »
+.	Any character (except newline character)	"he..o"	Try it »
+^	Starts with	"^hello"	Try it »
+$	Ends with	"planet$"	Try it »
+*	Zero or more occurrences	"he.*o"	Try it »
++	One or more occurrences	"he.+o"	Try it »
+?	Zero or one occurrences	"he.?o"	Try it »
+{}	Exactly the specified number of occurrences	"he.{2}o"	Try it »
+|	Either or	"falls|stays"	Try it »
