@@ -1,7 +1,7 @@
 import re
 
 txt = "The rain in Spain"
-x = re.findall("ai", txt)
+x = re.findall("\w+ai\w+$", txt)
 print(x)
 
 
